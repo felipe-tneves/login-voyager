@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Voyager</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    <!-- <img class="wave"  src="img/undraw_profile_pic_ic5t.png"> -->
+    <div class="container">
+        <div class="img">
+            <img src="img/undraw_programming_2svr.png">
+
+        </div>
+        <div class="login-contaner">
+            <form action="index.html" onSubmit={this.efetuaLogin.bind(this)} className="log-in" autocomplete="off">
+                <br>
+                <br>
+                <br><br><br>
+                <img class="avatar" src="img/logo.jpg" alt="">
+                <h2 class="title">Voyager</h2>
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div>
+                        <h5>Email</h5>
+                        <input class="input" type="text">
+                    </div>
+                </div>
+                <!-- <div class="input-div two">
+                    <div class="i">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div>
+                        <h5>Password</h5>
+                        <input class="input" type="password">
+                    </div>
+                </div> -->
+         <!-- <a href="#">Cadê a Senha?</a> -->
+         <br>
+         <input type="submit" class="btn" value="Login">
+            </form>            
+        </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
+
+<!-- <div>
+    <form action="" onSubmit={this.efetuaLogin.bind(this)} className="log-in" autocomplete="off">
+        <div className="floating-label">
+        <label for="email">Email:</label>
+            <input placeholder="Email" type="text" name="email" id="email" value={this.state.email} onChange={this.atualizaEstadoEmail.bind(this)}
+                autocomplete="off" />
+        </div>
+        <button type="submit" onClick="return false;">Log in</button>
+
+    </form>
+</div> -->
